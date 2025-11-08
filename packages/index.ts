@@ -2,7 +2,6 @@
 //   render() { return "Hello World"; },
 // });
 // app.mount();
-
 export type AppOptions = {
   render: () => string;
 };
