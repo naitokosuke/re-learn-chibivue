@@ -15,7 +15,7 @@ export const createApp = (options: AppOptions): App => {
     // mount とは 何かを DOM に描画すること
     mount: selector => {
       const root = document.querySelector(selector);
-      if (root) root.innerHTML = options.render();
+      if (root) { root.innerHTML = options.render(); }
     },
   };
 };
