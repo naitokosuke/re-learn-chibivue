@@ -1,0 +1,16 @@
+{
+  "name": "re-learn-chibivue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd examples/playground && pnpm i && pnpm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.1",
+  "devDependencies": {
+    "@types/node": "^24.10.0"
+  }
+}
