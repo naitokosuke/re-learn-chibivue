@@ -32,6 +32,7 @@ export default tseslint.config(
 
       // TypeScript semantic rules
       '@typescript-eslint/unbound-method': 'off',
+      '@typescript-eslint/no-unsafe-function-type': 'off',
     },
   },
   {
