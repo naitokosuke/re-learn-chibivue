@@ -1,7 +1,7 @@
 // const app = createApp({
 //   render() { return "Hello World"; },
 // });
-// app.mount();
+// app.mount("#app");
 export type AppOptions = {
   render: () => string;
 };
