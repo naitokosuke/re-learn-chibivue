@@ -18,6 +18,7 @@ export default tseslint.config(
       '@stylistic': stylistic,
     },
     rules: {
+      // Stylistic rules
       '@stylistic/indent': ['error', 2],
       '@stylistic/quotes': ['error', 'double'],
       '@stylistic/semi': ['error', 'always'],
@@ -28,6 +29,9 @@ export default tseslint.config(
       '@stylistic/comma-spacing': ['error', { before: false, after: true }],
       '@stylistic/no-trailing-spaces': 'error',
       '@stylistic/no-multi-spaces': 'error',
+
+      // TypeScript semantic rules
+      '@typescript-eslint/unbound-method': 'off',
     },
   },
   {
