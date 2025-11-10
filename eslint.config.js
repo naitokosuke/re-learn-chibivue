@@ -29,6 +29,7 @@ export default tseslint.config(
       '@stylistic/comma-spacing': ['error', { before: false, after: true }],
       '@stylistic/no-trailing-spaces': 'error',
       '@stylistic/no-multi-spaces': 'error',
+      '@stylistic/no-multiple-empty-lines': ['error', { max: 1, maxEOF: 0 }],
 
       // TypeScript semantic rules
       '@typescript-eslint/unbound-method': 'off',
